@@ -441,7 +441,14 @@ body{
     text-decoration: none;
     color: #626262;
 }
-        
+ @media only screen and (max-width: 600px){
+.row{
+    text-align: center;
+}
+.col2 .col3 .col4{
+    flex-basis: 100%;
+}
+}       
         
         
         
